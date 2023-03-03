@@ -59,6 +59,6 @@ output = cv.VideoWriter("output.mp4",cv.VideoWriter_fourcc(*"mp4v"), fps, (width
 # or maybe
 
 cap = cv.VideoCapture("input.mp4")   
-output = cv.VideoWriter("output.avi",cv.VideoWriter_fourcc(M','J','P','G'), fps, (width, height)) 
+output = cv.VideoWriter("output.avi",cv.VideoWriter_fourcc('M','J','P','G'), fps, (width, height)) 
 ```
 if the format of output file doesn't match to the processing encoding, video result won't be correct and never play.
