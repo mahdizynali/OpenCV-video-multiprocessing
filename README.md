@@ -48,3 +48,17 @@ outlable.pack() thread line
 Button(window,text='start process',bd=5,command=thread.start).pack()
 outlable=Label(window).pack()
 ```
+
+# Notice !!
+there is a sample mp4 file in repo in order to test script, but if you want to use other formats to input and outout results, \
+you have to modify this section of source code :
+```python
+cap = cv.VideoCapture("input.mp4")   
+output = cv.VideoWriter("output.mp4",cv.VideoWriter_fourcc(*"mp4v"), fps, (width, height))  
+
+# or maybe
+
+cap = cv.VideoCapture("input.mp4")   
+output = cv.VideoWriter("output.avi",cv.VideoWriter_fourcc(M','J','P','G'), fps, (width, height)) 
+```
+if the format of output file doesn't match to the processing encoding, video result won't be correct and never play.
