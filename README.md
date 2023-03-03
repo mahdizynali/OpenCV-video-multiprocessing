@@ -22,4 +22,14 @@ pool = ThreadPool(processes = process_number)
 
 pool = ThreadPool(processes = 4)
 ```
+in order to use use this script, just you have to change frameProcessing function and put your own code :
+```
+# Do not change return and input case of function !!
 
+
+def frameProcessing (frame, t0):
+
+    # you can put your own procedure instead of this
+
+    return frame, t0
+```
