@@ -32,7 +32,7 @@ def frameProcessing (frame, t0):
 ```
 
 # tk_multiprocessing.py
-In this script, we use an extra processor to make a switch case between script and gui program by creating a thread line that \
+In this script, we use an extra processor to make a switch case between script and gui program by creating a thread line that 
 perform us to update ui window simultaneously when multiprocess is under working; it mean that the ui window won't intrrupt and never \
 freeze during the procedure so we can set our orders into ui window :)) \
 it's a sample of tkinter opencv video multiprocessing module that can be developed for other kind of gui systems. \
