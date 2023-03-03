@@ -19,16 +19,13 @@ pool = ThreadPool(processes = process_number)
 ```
 ```python
 # modifying
-
 pool = ThreadPool(processes = 4)
 ```
 in order to use use this script, just you have to change frameProcessing function and put your own code :
 ```python
 # Do not change return and input case of function !!
 
-
 def frameProcessing (frame, t0):
-
     # you can put your own procedure here.
 
     return frame, t0
