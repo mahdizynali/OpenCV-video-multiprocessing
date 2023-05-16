@@ -9,7 +9,7 @@ Gui systems like tkinter or may pyqt and other; we will introduce both of them.
 Considering that a system contain 4 units of processing, so the script will seprating burden of processing into 4 units.\
 if we have a video which has 60 min frames, so we can process for example first 10 frames with 4 units instead of 1 !!\
 as a result, we have a output video 4 times faster than normal processing.
-<a href="https://github.com/maze80/Soccer-Robot-Playground"><img src="https://s2.uupload.ir/files/screenshot_from_2023-03-03_17-43-33_bt4.png" alt="HSL" width="500"></a> \
+<a href="https://github.com/mahdizynali/Soccer-Robot-Playground"><img src="https://s2.uupload.ir/files/screenshot_from_2023-03-03_17-43-33_bt4.png" alt="HSL" width="500"></a> \
 diagnosing the number of system's core is automatically but in order to implement your own workers number, just try to change pool number: 
 ```python
 # default code to get number of processors
@@ -36,7 +36,7 @@ In this script, we use an extra processor to make a switch case between script a
 perform us to update ui window simultaneously when multiprocess is under working; it mean that the ui window won't intrrupt and never \
 freeze during the procedure so we can set our orders into ui window :)) \
 it's a sample of tkinter opencv video multiprocessing module that can be developed for other kind of gui systems. \
-<a href="https://github.com/maze80/Soccer-Robot-Playground"><img src="https://s2.uupload.ir/files/screenshot_from_2023-03-03_18-20-48_auvd.png" alt="HSL" width="500"></a> \
+<a href="https://github.com/mahdizynali/Soccer-Robot-Playground"><img src="https://s2.uupload.ir/files/screenshot_from_2023-03-03_18-20-48_auvd.png" alt="HSL" width="500"></a> \
 with set a button into thread strater, all the issues will be handeled :
 ```python
 # switch thread to the multiprocess function
