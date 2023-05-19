@@ -1,3 +1,6 @@
+# Authored By Mahdi Zeinali
+# github : github.com/mahdizynali
+
 from multiprocessing.pool import ThreadPool
 import threading
 from collections import deque
