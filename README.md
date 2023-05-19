@@ -1,3 +1,9 @@
+<meta name="author" content="Mahdi Zeinali">
+<meta name="account" content="mahdizynali">
+<meta name="description" content="mahdi Zeinali github account">
+<meta name="copyright" content="mahdi zeinali 2023">
+<meta name="keywords" content="mahdi zeinali, mahdizynali, mrl-hsl, mrl, hsl, zeinali, mahdi zynali">
+
 # OpenCV-frame-multiprocessing
 with this script, it will be possible to process video frames, may webcam input frames or a single image,
 faster than usual mode, by multiprocessing and seprating frames into some parts and process each part by a thread and add
